@@ -15,7 +15,7 @@ from tkinter import *
 ventana_principal = Tk()
 
 # titulo de la ventana
-ventana_principal.title("Sistemas Uis Socorro")
+ventana_principal.title("Sistemas UIS Socorro")
 
 # tamaño de la ventana
 ventana_principal.geometry("800x500")
@@ -70,8 +70,5 @@ frame_resultados_8 = Frame(ventana_principal)
 frame_resultados_8.config(bg="white", width=40, height=200)
 frame_resultados_8.place(x=200,y=0)
 # run
-# se ejecuta la funcion (metodo) mainloop() de la clase Tk a traves de la instancia ventana_principal, 
-# este metodo despliega una ventana siemple en la pantalla y queda a la espera de lo que el usuario haga
-# cada accion del usuario se conoce como evento. El metodo mainloop() es un bucle "infinito"
 
 ventana_principal.mainloop()
